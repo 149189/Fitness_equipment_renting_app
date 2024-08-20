@@ -1,25 +1,5 @@
 # Fitness Equipment Rental Website
 
-fitness-rental
-│
-├── public
-│   ├── index.html           # HTML template
-│
-├── src
-│   ├── components           # Reusable components
-│   │   ├── Navbar.js        # Navigation bar
-│   │   ├── Home.js          # Home page component
-│   │   ├── Equipment.js     # Equipment listing component
-│   │   ├── Login.js         # Login page component
-│   │   └── Footer.js        # Footer component
-│   │
-│   ├── App.js               # Main app component
-│   ├── index.js             # Entry point for React
-│   ├── styles.css           # Global styles
-│
-└── package.json             # Project metadata and dependencies
-
-
 This is a React-based web application for renting fitness equipment. The website allows users to browse available fitness equipment, view details, and log in to manage their rentals.
 
 # Table of Contents
