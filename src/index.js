@@ -10,3 +10,7 @@ root.render(
     <App />
   </BrowserRouter>
 );
+/* 
+1. Login sign up page -> Authentication
+2. Home Page -> Product
+3. Google Maps Api  */
