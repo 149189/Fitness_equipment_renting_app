@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import ItemsPage from './pages/ItemsPage';
 import ImageUploadPage from './pages/ImageUploadPage';
@@ -15,6 +15,8 @@ function MyButton() {
 
 function App() {
   return (
+    <div>
+    <BrowserRouter>
     <Router>
       <Routes>
         <Route path="/login" element={<LoginPage />} />
@@ -22,6 +24,8 @@ function App() {
         <Route path="/upload" element={<ImageUploadPage />} />
       </Routes>
     </Router>
+    </BrowserRouter>
+    </div>
   );
 }
 
